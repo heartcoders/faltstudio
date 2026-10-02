@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "typecheck": "tsc -p tsconfig.json",
-    "test": "vitest run"
+    "test": "vitest run",
+    "meta-images": "node scripts/build-meta-images.mjs"
   },
   "dependencies": {
     "@faltstudio/core": "workspace:*",
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "fake-indexeddb": "^6.2.5",
+    "playwright": "^1.55.0",
     "vite": "^8.0.0",
     "vitest": "^5.0.0"
   }

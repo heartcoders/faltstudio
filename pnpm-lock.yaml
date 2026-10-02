@@ -78,6 +78,9 @@ importers:
       fake-indexeddb:
         specifier: ^6.2.5
         version: 6.2.5
+      playwright:
+        specifier: ^1.55.0
+        version: 1.63.0
       vite:
         specifier: ^8.0.0
         version: 8.3.1(@types/node@24.13.6)(esbuild@0.28.2)(tsx@4.23.15)
