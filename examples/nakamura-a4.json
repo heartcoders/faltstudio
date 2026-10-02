@@ -1,0 +1,850 @@
+{
+  "formatVersion": 1,
+  "meta": {
+    "title": "Nakamura-Lock",
+    "author": "Faltstudio",
+    "date": "2026-10-02"
+  },
+  "sheet": {
+    "width": 210,
+    "height": 297
+  },
+  "vertices": [
+    {
+      "id": "B-bottom:a",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "B-bottom:b",
+      "x": 210,
+      "y": 0
+    },
+    {
+      "id": "B-right:b",
+      "x": 210,
+      "y": 297
+    },
+    {
+      "id": "B-top:b",
+      "x": 0,
+      "y": 297
+    },
+    {
+      "id": "S1a.t1:a",
+      "x": 105,
+      "y": 0
+    },
+    {
+      "id": "S1a.t1:b",
+      "x": 105,
+      "y": 297
+    },
+    {
+      "id": "S2a.t1:b",
+      "x": 210.0000000000009,
+      "y": 191.9999999999991
+    },
+    {
+      "id": "S3a.t1:b",
+      "x": -9.094947017729282e-13,
+      "y": 191.9999999999991
+    },
+    {
+      "id": "S4a.t1:a",
+      "x": 0,
+      "y": 190
+    },
+    {
+      "id": "S4a.t1:b",
+      "x": 105,
+      "y": 190
+    },
+    {
+      "id": "S4a.t2:b",
+      "x": 210.00000000000182,
+      "y": 190
+    },
+    {
+      "id": "S5a.t1:a",
+      "x": 0,
+      "y": 83.35795454545405
+    },
+    {
+      "id": "S5a.t1:b",
+      "x": 89.37619047619046,
+      "y": 190
+    },
+    {
+      "id": "S5a.t2:a",
+      "x": 47.71243523316025,
+      "y": 239.71243523316116
+    },
+    {
+      "id": "S5a.t2:b",
+      "x": -9.094947017729282e-13,
+      "y": 279.7000000000007
+    },
+    {
+      "id": "S6a.t1:a",
+      "x": 120.62380952381045,
+      "y": 189.9999999999991
+    },
+    {
+      "id": "S6a.t1:b",
+      "x": 210,
+      "y": 83.35795454545405
+    },
+    {
+      "id": "S6a.t2:b",
+      "x": 162.28756476683884,
+      "y": 239.71243523316025
+    },
+    {
+      "id": "S6a.t3:a",
+      "x": 210,
+      "y": 279.6999999999998
+    },
+    {
+      "id": "S7a.t1:a",
+      "x": 117.00000000000006,
+      "y": 297
+    },
+    {
+      "id": "S7a.t1:b",
+      "x": 116.99999999999986,
+      "y": 285.0000000000018
+    },
+    {
+      "id": "S7a.t2:a",
+      "x": 92.99999999999979,
+      "y": 285
+    },
+    {
+      "id": "S7a.t2:b",
+      "x": 92.99999999999997,
+      "y": 297
+    },
+    {
+      "id": "S7a.t3:b",
+      "x": 105,
+      "y": 285
+    },
+    {
+      "id": "S8a.t2:a",
+      "x": 93.65591397849494,
+      "y": 297
+    },
+    {
+      "id": "S9a.t1:a",
+      "x": 113,
+      "y": 190
+    },
+    {
+      "id": "S9a.t1:b",
+      "x": 127.99999999999989,
+      "y": 1.8189894035458565e-12
+    },
+    {
+      "id": "S9a.t2:a",
+      "x": 150.81217868286694,
+      "y": 189.99999999999955
+    },
+    {
+      "id": "S9a.t2:b",
+      "x": 210.00000000000364,
+      "y": 174.60306442691035
+    },
+    {
+      "id": "S9a.t3:b",
+      "x": 199.3686664412653,
+      "y": 202.63133355873515
+    },
+    {
+      "id": "S9a.t4:a",
+      "x": 210.00000000000045,
+      "y": 243.4995613986266
+    },
+    {
+      "id": "S9a.t5:a",
+      "x": 210,
+      "y": 288.8421052631726
+    },
+    {
+      "id": "S9a.t5:b",
+      "x": 120.24390243902235,
+      "y": 281.75609756097754
+    },
+    {
+      "id": "S10a.t1:a",
+      "x": 97,
+      "y": 190
+    },
+    {
+      "id": "S10a.t1:b",
+      "x": 82.00000000000011,
+      "y": 1.8189894035458565e-12
+    },
+    {
+      "id": "S10a.t2:a",
+      "x": 0,
+      "y": 288.84210526315974
+    },
+    {
+      "id": "S10a.t2:b",
+      "x": 89.75609756097583,
+      "y": 281.7560975609757
+    },
+    {
+      "id": "S10a.t3:a",
+      "x": -4.547473508864641e-13,
+      "y": 243.49956139863752
+    },
+    {
+      "id": "S10a.t3:b",
+      "x": 10.631333558733786,
+      "y": 202.63133355873651
+    },
+    {
+      "id": "S10a.t4:a",
+      "x": 59.187821317134876,
+      "y": 190.00000000000045
+    },
+    {
+      "id": "S10a.t5:b",
+      "x": 0,
+      "y": 174.60306442691126
+    }
+  ],
+  "creases": [
+    {
+      "id": "B-bottom.1",
+      "a": "B-bottom:a",
+      "b": "S10a.t1:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-bottom.2",
+      "a": "S10a.t1:b",
+      "b": "S1a.t1:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-bottom.3",
+      "a": "S1a.t1:a",
+      "b": "S9a.t1:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-bottom.4",
+      "a": "S9a.t1:b",
+      "b": "B-bottom:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.1",
+      "a": "B-bottom:b",
+      "b": "S6a.t1:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.2",
+      "a": "S6a.t1:b",
+      "b": "S9a.t2:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.3",
+      "a": "S9a.t2:b",
+      "b": "S4a.t2:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.4",
+      "a": "S4a.t2:b",
+      "b": "S2a.t1:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.5",
+      "a": "S2a.t1:b",
+      "b": "S9a.t4:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.6",
+      "a": "S9a.t4:a",
+      "b": "S6a.t3:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.7",
+      "a": "S6a.t3:a",
+      "b": "S9a.t5:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.8",
+      "a": "S9a.t5:a",
+      "b": "B-right:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-top.1",
+      "a": "B-right:b",
+      "b": "S7a.t1:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-top.2",
+      "a": "S7a.t1:a",
+      "b": "S1a.t1:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-top.3",
+      "a": "S1a.t1:b",
+      "b": "S8a.t2:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-top.4",
+      "a": "S8a.t2:a",
+      "b": "S7a.t2:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-top.5",
+      "a": "S7a.t2:b",
+      "b": "B-top:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.1",
+      "a": "B-top:b",
+      "b": "S10a.t2:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.2",
+      "a": "S10a.t2:a",
+      "b": "S5a.t2:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.3",
+      "a": "S5a.t2:b",
+      "b": "S10a.t3:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.4",
+      "a": "S10a.t3:a",
+      "b": "S3a.t1:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.5",
+      "a": "S3a.t1:b",
+      "b": "S4a.t1:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.6",
+      "a": "S4a.t1:a",
+      "b": "S10a.t5:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.7",
+      "a": "S10a.t5:b",
+      "b": "S5a.t1:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.8",
+      "a": "S5a.t1:a",
+      "b": "B-bottom:a",
+      "kind": "border"
+    },
+    {
+      "id": "S1a.t1.1",
+      "a": "S1a.t1:a",
+      "b": "S4a.t1:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S1a.t1.2",
+      "a": "S4a.t1:b",
+      "b": "S7a.t3:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S1a.t1.3",
+      "a": "S7a.t3:b",
+      "b": "S1a.t1:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S2a.t1.1",
+      "a": "S1a.t1:b",
+      "b": "S7a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S2a.t1.2",
+      "a": "S7a.t1:b",
+      "b": "S9a.t5:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S2a.t1.3",
+      "a": "S9a.t5:b",
+      "b": "S6a.t2:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S2a.t1.4",
+      "a": "S6a.t2:b",
+      "b": "S9a.t3:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S2a.t1.5",
+      "a": "S9a.t3:b",
+      "b": "S2a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S3a.t1.1",
+      "a": "S1a.t1:b",
+      "b": "S7a.t2:a",
+      "kind": "valley"
+    },
+    {
+      "id": "S3a.t1.2",
+      "a": "S7a.t2:a",
+      "b": "S10a.t2:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S3a.t1.3",
+      "a": "S10a.t2:b",
+      "b": "S5a.t2:a",
+      "kind": "valley"
+    },
+    {
+      "id": "S3a.t1.4",
+      "a": "S5a.t2:a",
+      "b": "S10a.t3:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S3a.t1.5",
+      "a": "S10a.t3:b",
+      "b": "S3a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S4a.t1.1",
+      "a": "S4a.t1:a",
+      "b": "S10a.t4:a",
+      "kind": "valley"
+    },
+    {
+      "id": "S4a.t1.2",
+      "a": "S10a.t4:a",
+      "b": "S5a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S4a.t1.3",
+      "a": "S5a.t1:b",
+      "b": "S10a.t1:a",
+      "kind": "valley"
+    },
+    {
+      "id": "S4a.t1.4",
+      "a": "S10a.t1:a",
+      "b": "S4a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S4a.t2.1",
+      "a": "S4a.t1:b",
+      "b": "S9a.t1:a",
+      "kind": "valley"
+    },
+    {
+      "id": "S4a.t2.2",
+      "a": "S9a.t1:a",
+      "b": "S6a.t1:a",
+      "kind": "valley"
+    },
+    {
+      "id": "S4a.t2.3",
+      "a": "S6a.t1:a",
+      "b": "S9a.t2:a",
+      "kind": "valley"
+    },
+    {
+      "id": "S4a.t2.4",
+      "a": "S9a.t2:a",
+      "b": "S4a.t2:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S5a.t1",
+      "a": "S5a.t1:a",
+      "b": "S5a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S5a.t2",
+      "a": "S5a.t2:a",
+      "b": "S5a.t2:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S5a.t3",
+      "a": "S5a.t2:a",
+      "b": "S5a.t1:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S6a.t1",
+      "a": "S6a.t1:a",
+      "b": "S6a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S6a.t2",
+      "a": "S6a.t1:a",
+      "b": "S6a.t2:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S6a.t3",
+      "a": "S6a.t3:a",
+      "b": "S6a.t2:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S7a.t1",
+      "a": "S7a.t1:a",
+      "b": "S7a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S7a.t2",
+      "a": "S7a.t2:a",
+      "b": "S7a.t2:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S7a.t3",
+      "a": "S7a.t2:a",
+      "b": "S7a.t3:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S7a.t4",
+      "a": "S7a.t3:b",
+      "b": "S7a.t1:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S9a.t1",
+      "a": "S9a.t1:a",
+      "b": "S9a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S9a.t2",
+      "a": "S9a.t2:a",
+      "b": "S9a.t2:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S9a.t3",
+      "a": "S9a.t2:a",
+      "b": "S9a.t3:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S9a.t4",
+      "a": "S9a.t4:a",
+      "b": "S9a.t3:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S9a.t5",
+      "a": "S9a.t5:a",
+      "b": "S9a.t5:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S9a.t6",
+      "a": "S9a.t1:a",
+      "b": "S9a.t5:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S10a.t1",
+      "a": "S10a.t1:a",
+      "b": "S10a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S10a.t2",
+      "a": "S10a.t2:a",
+      "b": "S10a.t2:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S10a.t3",
+      "a": "S10a.t3:a",
+      "b": "S10a.t3:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S10a.t4",
+      "a": "S10a.t4:a",
+      "b": "S10a.t3:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S10a.t5",
+      "a": "S10a.t4:a",
+      "b": "S10a.t5:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S10a.t6",
+      "a": "S10a.t1:a",
+      "b": "S10a.t2:b",
+      "kind": "mountain"
+    }
+  ],
+  "steps": [
+    {
+      "id": "s1",
+      "title": "Mittelfalte vorfalten",
+      "text": "Blatt längs in der Mitte falten und wieder öffnen.",
+      "sequential": true,
+      "folds": [
+        {
+          "creaseIds": [
+            "S1a.t1.1",
+            "S1a.t1.2",
+            "S1a.t1.3"
+          ],
+          "movingPoint": [
+            20,
+            20
+          ],
+          "angle": 180
+        },
+        {
+          "creaseIds": [
+            "S1a.t1.1",
+            "S1a.t1.2",
+            "S1a.t1.3"
+          ],
+          "movingPoint": [
+            20,
+            20
+          ],
+          "angle": -180
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Rechte Ecke zur Mitte",
+      "text": "Rechte obere Ecke an die Mittelfalte legen.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S2a.t1.1",
+            "S2a.t1.2",
+            "S2a.t1.3",
+            "S2a.t1.4",
+            "S2a.t1.5"
+          ],
+          "movingPoint": [
+            205,
+            290
+          ],
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Linke Ecke zur Mitte",
+      "text": "Linke obere Ecke ebenso an die Mitte legen.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S3a.t1.1",
+            "S3a.t1.2",
+            "S3a.t1.3",
+            "S3a.t1.4",
+            "S3a.t1.5"
+          ],
+          "movingPoint": [
+            5,
+            290
+          ],
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Spitze nach unten",
+      "text": "Die Spitze an der Unterkante der Klappen nach unten falten.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S4a.t1.1",
+            "S4a.t1.2",
+            "S4a.t1.3",
+            "S4a.t1.4",
+            "S4a.t2.1",
+            "S4a.t2.2",
+            "S4a.t2.3",
+            "S4a.t2.4"
+          ],
+          "movingPoint": [
+            80,
+            250
+          ],
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Linke Ecke zur Mitte",
+      "text": "Die neue linke Ecke so zur Mitte falten, dass die Spitze darunter frei bleibt.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S5a.t1",
+            "S5a.t2",
+            "S5a.t3"
+          ],
+          "movingPoint": [
+            3,
+            186
+          ],
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Rechte Ecke zur Mitte",
+      "text": "Die rechte Ecke ebenso. Beide Ecken treffen sich über der Spitze.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S6a.t1",
+            "S6a.t2",
+            "S6a.t3"
+          ],
+          "movingPoint": [
+            207,
+            186
+          ],
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Spitze verriegeln",
+      "text": "Die kleine Spitze nach oben über die Ecken falten. Sie hält alles zusammen.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S7a.t1",
+            "S7a.t2",
+            "S7a.t3",
+            "S7a.t4"
+          ],
+          "movingPoint": [
+            101,
+            291
+          ],
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Entlang der Mitte falten",
+      "text": "Den Flieger entlang der Mittelfalte nach hinten zusammenklappen.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S1a.t1.1",
+            "S1a.t1.2",
+            "S1a.t1.3"
+          ],
+          "movingPoint": [
+            20,
+            20
+          ],
+          "angle": -180
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Rechter Flügel",
+      "text": "Den oberen Flügel entlang der Linie nach vorn klappen, bis er waagerecht steht.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S9a.t1",
+            "S9a.t2",
+            "S9a.t3",
+            "S9a.t4",
+            "S9a.t5",
+            "S9a.t6"
+          ],
+          "movingPoint": [
+            200,
+            20
+          ],
+          "angle": 90
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Linker Flügel",
+      "text": "Den unteren Flügel ebenso klappen. Fertig – ein ruhiger Gleiter.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S10a.t1",
+            "S10a.t2",
+            "S10a.t3",
+            "S10a.t4",
+            "S10a.t5",
+            "S10a.t6"
+          ],
+          "movingPoint": [
+            10,
+            20
+          ],
+          "angle": 90
+        }
+      ]
+    }
+  ]
+}

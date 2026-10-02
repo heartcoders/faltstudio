@@ -1,0 +1,9 @@
+node_modules
+dist
+coverage
+.DS_Store
+*.log
+.vitest
+
+# Claude-Code-Konfiguration bleibt privat
+.claude/

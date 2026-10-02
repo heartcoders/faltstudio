@@ -1,0 +1,49 @@
+{
+  "name": "@faltstudio/ui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "sideEffects": [
+    "./src/**/define.ts"
+  ],
+  "exports": {
+    ".": "./src/index.ts",
+    "./define": "./src/define.ts",
+    "./button": "./src/components/button/define.ts",
+    "./scene": "./src/components/scene/define.ts",
+    "./tokens": "./src/tokens/tokens.ts",
+    "./document": "./src/styles/document.ts",
+    "./segmented": "./src/components/segmented/define.ts",
+    "./slider": "./src/components/slider/define.ts",
+    "./dial": "./src/components/dial/define.ts",
+    "./step-card": "./src/components/step-card/define.ts",
+    "./issue": "./src/components/issue/define.ts",
+    "./readout": "./src/components/readout/define.ts",
+    "./panel": "./src/components/panel/define.ts",
+    "./legend": "./src/components/legend/define.ts",
+    "./text-field": "./src/components/text-field/define.ts",
+    "./checkbox": "./src/components/checkbox/define.ts",
+    "./step-track": "./src/components/step-track/define.ts",
+    "./sheet": "./src/components/sheet/define.ts",
+    "./locale-switch": "./src/components/locale-switch/define.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json",
+    "check:invariants": "node scripts/check-invariants.mjs"
+  },
+  "dependencies": {
+    "@faltstudio/core": "workspace:*",
+    "lit": "^3.3.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0",
+    "@vitest/browser-playwright": "^5.0.0",
+    "axe-core": "^4.10.0",
+    "playwright": "^1.55.0",
+    "vite": "^8.0.0",
+    "vitest": "^5.0.0"
+  }
+}

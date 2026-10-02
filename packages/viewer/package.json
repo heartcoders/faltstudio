@@ -1,0 +1,29 @@
+{
+  "name": "@faltstudio/viewer",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vite build --config vite.embed.config.ts",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@faltstudio/core": "workspace:*",
+    "@faltstudio/ui": "workspace:*",
+    "lit": "^3.3.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0",
+    "vite": "^8.0.0",
+    "vitest": "^5.0.0",
+    "@vitest/browser-playwright": "^5.0.0",
+    "playwright": "^1.55.0"
+  },
+  "exports": {
+    "./define": "./src/components/viewer/define.ts"
+  }
+}

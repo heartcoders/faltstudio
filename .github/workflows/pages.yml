@@ -1,0 +1,66 @@
+# Baut das Studio (Startseite, Editor, Ansicht) und veroeffentlicht es auf
+# GitHub Pages. Veroeffentlicht wird nur, wenn Lint, Format, Typen und Tests
+# gruen sind.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Abhaengigkeiten
+        run: pnpm install --frozen-lockfile
+
+      - name: Lint und Format
+        run: |
+          pnpm lint
+          pnpm format:check
+
+      - name: Typen
+        run: pnpm typecheck
+
+      - name: Chromium fuer die Browser-Tests
+        run: pnpm --filter @faltstudio/ui exec playwright install --with-deps chromium
+
+      - name: Tests
+        run: pnpm test
+
+      - name: Build
+        run: pnpm --filter @faltstudio/editor... build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: packages/editor/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

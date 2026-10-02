@@ -1,0 +1,483 @@
+{
+  "formatVersion": 1,
+  "meta": {
+    "title": "Pfeil (Dart)",
+    "author": "Faltstudio",
+    "date": "2026-09-25"
+  },
+  "sheet": {
+    "width": 210,
+    "height": 297
+  },
+  "vertices": [
+    {
+      "id": "B-bottom:a",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "B-bottom:b",
+      "x": 210,
+      "y": 0
+    },
+    {
+      "id": "B-right:b",
+      "x": 210,
+      "y": 297
+    },
+    {
+      "id": "B-top:b",
+      "x": 0,
+      "y": 297
+    },
+    {
+      "id": "L1:a",
+      "x": 105,
+      "y": 0
+    },
+    {
+      "id": "L1:b",
+      "x": 105,
+      "y": 297
+    },
+    {
+      "id": "L2:b",
+      "x": 0,
+      "y": 192
+    },
+    {
+      "id": "L3:b",
+      "x": 210,
+      "y": 192
+    },
+    {
+      "id": "L4:b",
+      "x": 0,
+      "y": 43.507575950825014
+    },
+    {
+      "id": "L5:b",
+      "x": 210,
+      "y": 43.507575950825014
+    },
+    {
+      "id": "L4':b",
+      "x": 0,
+      "y": 253.50757595082501
+    },
+    {
+      "id": "L5':b",
+      "x": 210,
+      "y": 253.50757595082501
+    },
+    {
+      "id": "W8.w1:b",
+      "x": 78.00000000000011,
+      "y": 0
+    },
+    {
+      "id": "W7.w1:b",
+      "x": 131.9999999999999,
+      "y": 0
+    },
+    {
+      "id": "W7.w2:b",
+      "x": 210,
+      "y": 171
+    },
+    {
+      "id": "W7.w3:b",
+      "x": 209.9999999999991,
+      "y": 209.50000000000182
+    },
+    {
+      "id": "W7.w4:b",
+      "x": 210,
+      "y": 287.4545454545454
+    },
+    {
+      "id": "W8.w2:b",
+      "x": 0,
+      "y": 287.45454545454527
+    },
+    {
+      "id": "W8.w3:b",
+      "x": 9.094947017729282e-13,
+      "y": 209.50000000000182
+    },
+    {
+      "id": "W8.w4:b",
+      "x": 0,
+      "y": 171
+    }
+  ],
+  "creases": [
+    {
+      "id": "B-bottom.1",
+      "a": "B-bottom:a",
+      "b": "W8.w1:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-bottom.2",
+      "a": "W8.w1:b",
+      "b": "L1:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-bottom.3",
+      "a": "L1:a",
+      "b": "W7.w1:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-bottom.4",
+      "a": "W7.w1:b",
+      "b": "B-bottom:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.1",
+      "a": "B-bottom:b",
+      "b": "L5:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.2",
+      "a": "L5:b",
+      "b": "W7.w2:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.3",
+      "a": "W7.w2:b",
+      "b": "L3:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.4",
+      "a": "L3:b",
+      "b": "W7.w3:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.5",
+      "a": "W7.w3:b",
+      "b": "L5':b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.6",
+      "a": "L5':b",
+      "b": "W7.w4:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.7",
+      "a": "W7.w4:b",
+      "b": "B-right:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-top.1",
+      "a": "B-right:b",
+      "b": "L1:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-top.2",
+      "a": "L1:b",
+      "b": "B-top:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.1",
+      "a": "B-top:b",
+      "b": "W8.w2:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.2",
+      "a": "W8.w2:b",
+      "b": "L4':b",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.3",
+      "a": "L4':b",
+      "b": "W8.w3:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.4",
+      "a": "W8.w3:b",
+      "b": "L2:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.5",
+      "a": "L2:b",
+      "b": "W8.w4:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.6",
+      "a": "W8.w4:b",
+      "b": "L4:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.7",
+      "a": "L4:b",
+      "b": "B-bottom:a",
+      "kind": "border"
+    },
+    {
+      "id": "L1",
+      "a": "L1:a",
+      "b": "L1:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "L2",
+      "a": "L1:b",
+      "b": "L2:b",
+      "kind": "valley"
+    },
+    {
+      "id": "L3",
+      "a": "L1:b",
+      "b": "L3:b",
+      "kind": "valley"
+    },
+    {
+      "id": "L4",
+      "a": "L1:b",
+      "b": "L4:b",
+      "kind": "valley"
+    },
+    {
+      "id": "L5",
+      "a": "L1:b",
+      "b": "L5:b",
+      "kind": "valley"
+    },
+    {
+      "id": "L4'",
+      "a": "L1:b",
+      "b": "L4':b",
+      "kind": "mountain"
+    },
+    {
+      "id": "L5'",
+      "a": "L1:b",
+      "b": "L5':b",
+      "kind": "mountain"
+    },
+    {
+      "id": "W8.w1",
+      "a": "L1:b",
+      "b": "W8.w1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "W7.w1",
+      "a": "L1:b",
+      "b": "W7.w1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "W7.w2",
+      "a": "L1:b",
+      "b": "W7.w2:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "W7.w3",
+      "a": "L1:b",
+      "b": "W7.w3:b",
+      "kind": "valley"
+    },
+    {
+      "id": "W7.w4",
+      "a": "L1:b",
+      "b": "W7.w4:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "W8.w2",
+      "a": "L1:b",
+      "b": "W8.w2:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "W8.w3",
+      "a": "L1:b",
+      "b": "W8.w3:b",
+      "kind": "valley"
+    },
+    {
+      "id": "W8.w4",
+      "a": "L1:b",
+      "b": "W8.w4:b",
+      "kind": "mountain"
+    }
+  ],
+  "steps": [
+    {
+      "id": "s1",
+      "title": "Mittelfalte vorfalten",
+      "text": "Blatt längs in der Mitte falten und wieder öffnen.",
+      "sequential": true,
+      "folds": [
+        {
+          "creaseIds": [
+            "L1"
+          ],
+          "movingPoint": [
+            20,
+            20
+          ],
+          "angle": 180
+        },
+        {
+          "creaseIds": [
+            "L1"
+          ],
+          "movingPoint": [
+            20,
+            20
+          ],
+          "angle": -180
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Rechte Ecke zur Mitte",
+      "text": "Rechte obere Ecke an die Mittelfalte legen.",
+      "folds": [
+        {
+          "creaseIds": [
+            "L3"
+          ],
+          "movingPoint": [
+            205,
+            290
+          ],
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Linke Ecke zur Mitte",
+      "text": "Greif die Ecke und falte sie entlang der gestrichelten Achse auf die Mittelfalte, bis sie einrastet.",
+      "folds": [
+        {
+          "creaseIds": [
+            "L2"
+          ],
+          "movingPoint": [
+            5,
+            290
+          ],
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Rechte Kante zur Mitte",
+      "text": "Die neue rechte Schrägkante an die Mittelfalte legen. Die Falte geht durch zwei Lagen.",
+      "folds": [
+        {
+          "creaseIds": [
+            "L5",
+            "L5'"
+          ],
+          "movingPoint": [
+            205,
+            150
+          ],
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Linke Kante zur Mitte",
+      "text": "Die linke Schrägkante ebenso an die Mitte legen.",
+      "folds": [
+        {
+          "creaseIds": [
+            "L4",
+            "L4'"
+          ],
+          "movingPoint": [
+            5,
+            150
+          ],
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Entlang der Mitte falten",
+      "text": "Den Flieger entlang der Mittelfalte nach hinten zusammenklappen.",
+      "folds": [
+        {
+          "creaseIds": [
+            "L1"
+          ],
+          "movingPoint": [
+            20,
+            20
+          ],
+          "angle": -180
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Rechter Flügel",
+      "text": "Den oberen Flügel entlang der Linie von der Nase zum Heck nach vorn klappen, bis er waagerecht steht.",
+      "folds": [
+        {
+          "creaseIds": [
+            "W7.w1",
+            "W7.w2",
+            "W7.w3",
+            "W7.w4"
+          ],
+          "movingPoint": [
+            200,
+            20
+          ],
+          "angle": 90
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Linker Flügel",
+      "text": "Den unteren Flügel ebenso klappen. Fertig – guten Flug!",
+      "folds": [
+        {
+          "creaseIds": [
+            "W8.w1",
+            "W8.w2",
+            "W8.w3",
+            "W8.w4"
+          ],
+          "movingPoint": [
+            10,
+            20
+          ],
+          "angle": 90
+        }
+      ]
+    }
+  ]
+}

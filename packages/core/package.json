@@ -1,0 +1,42 @@
+{
+  "name": "@faltstudio/core",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts",
+    "./three": "./src/three/index.ts",
+    "./fixtures": "./src/fixtures/index.ts"
+  },
+  "publishConfig": {
+    "exports": {
+      ".": "./dist/index.js",
+      "./three": "./dist/three.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json",
+    "example:dart": "tsx scripts/build-dart-example.ts",
+    "example:planes": "tsx scripts/build-plane-examples.ts"
+  },
+  "peerDependencies": {
+    "three": ">=0.180.0"
+  },
+  "peerDependenciesMeta": {
+    "three": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "@types/three": "^0.186.0",
+    "three": "^0.186.1",
+    "tsx": "^4.23.15",
+    "vite": "^8.0.0",
+    "vitest": "^5.0.0"
+  }
+}

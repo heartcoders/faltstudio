@@ -1,0 +1,626 @@
+{
+  "formatVersion": 1,
+  "meta": {
+    "title": "Hammerkopf",
+    "author": "Faltstudio",
+    "date": "2026-10-02"
+  },
+  "sheet": {
+    "width": 210,
+    "height": 297
+  },
+  "vertices": [
+    {
+      "id": "B-bottom:a",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "B-bottom:b",
+      "x": 210,
+      "y": 0
+    },
+    {
+      "id": "B-right:b",
+      "x": 210,
+      "y": 297
+    },
+    {
+      "id": "B-top:b",
+      "x": 0,
+      "y": 297
+    },
+    {
+      "id": "S1a.t1:a",
+      "x": 105,
+      "y": 0
+    },
+    {
+      "id": "S1a.t1:b",
+      "x": 105,
+      "y": 297
+    },
+    {
+      "id": "S2a.t1:b",
+      "x": 210.0000000000009,
+      "y": 191.9999999999991
+    },
+    {
+      "id": "S3a.t1:b",
+      "x": -9.094947017729282e-13,
+      "y": 191.9999999999991
+    },
+    {
+      "id": "S4a.t1:a",
+      "x": 0,
+      "y": 190
+    },
+    {
+      "id": "S4a.t1:b",
+      "x": 105,
+      "y": 190
+    },
+    {
+      "id": "S4a.t2:b",
+      "x": 210.00000000000182,
+      "y": 190
+    },
+    {
+      "id": "S5a.t1:a",
+      "x": 105,
+      "y": 230
+    },
+    {
+      "id": "S5a.t1:b",
+      "x": 171.99999999999818,
+      "y": 230
+    },
+    {
+      "id": "S5a.t2:a",
+      "x": 172.00000000000009,
+      "y": 297
+    },
+    {
+      "id": "S5a.t3:a",
+      "x": 37.99999999999985,
+      "y": 229.99999999999818
+    },
+    {
+      "id": "S5a.t3:b",
+      "x": 37.99999999999984,
+      "y": 297
+    },
+    {
+      "id": "S6a.t4:b",
+      "x": 105.84050367261443,
+      "y": 297
+    },
+    {
+      "id": "S7a.t1:a",
+      "x": 117.72053872053871,
+      "y": 190
+    },
+    {
+      "id": "S7a.t1:b",
+      "x": 119,
+      "y": 0
+    },
+    {
+      "id": "S7a.t2:b",
+      "x": 117.989898989899,
+      "y": 230.00000000000182
+    },
+    {
+      "id": "S7a.t3:a",
+      "x": 210,
+      "y": 284.26599326599046
+    },
+    {
+      "id": "S7a.t3:b",
+      "x": 171.99999999999818,
+      "y": 284.0101010100992
+    },
+    {
+      "id": "S7a.t4:a",
+      "x": 117.62372881355986,
+      "y": 284.37627118644036
+    },
+    {
+      "id": "S8a.t1:a",
+      "x": 92.27946127946129,
+      "y": 190
+    },
+    {
+      "id": "S8a.t1:b",
+      "x": 91,
+      "y": 0
+    },
+    {
+      "id": "S8a.t2:a",
+      "x": 92.3762711864274,
+      "y": 284.37627118642513
+    },
+    {
+      "id": "S8a.t2:b",
+      "x": 38,
+      "y": 284.01010101009945
+    },
+    {
+      "id": "S8a.t3:a",
+      "x": 0,
+      "y": 284.26599326599063
+    },
+    {
+      "id": "S8a.t4:b",
+      "x": 92.01010101010102,
+      "y": 229.99999999999818
+    }
+  ],
+  "creases": [
+    {
+      "id": "B-bottom.1",
+      "a": "B-bottom:a",
+      "b": "S8a.t1:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-bottom.2",
+      "a": "S8a.t1:b",
+      "b": "S1a.t1:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-bottom.3",
+      "a": "S1a.t1:a",
+      "b": "S7a.t1:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-bottom.4",
+      "a": "S7a.t1:b",
+      "b": "B-bottom:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.1",
+      "a": "B-bottom:b",
+      "b": "S4a.t2:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.2",
+      "a": "S4a.t2:b",
+      "b": "S2a.t1:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.3",
+      "a": "S2a.t1:b",
+      "b": "S7a.t3:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-right.4",
+      "a": "S7a.t3:a",
+      "b": "B-right:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-top.1",
+      "a": "B-right:b",
+      "b": "S5a.t2:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-top.2",
+      "a": "S5a.t2:a",
+      "b": "S6a.t4:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-top.3",
+      "a": "S6a.t4:b",
+      "b": "S1a.t1:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-top.4",
+      "a": "S1a.t1:b",
+      "b": "S5a.t3:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-top.5",
+      "a": "S5a.t3:b",
+      "b": "B-top:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.1",
+      "a": "B-top:b",
+      "b": "S8a.t3:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.2",
+      "a": "S8a.t3:a",
+      "b": "S3a.t1:b",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.3",
+      "a": "S3a.t1:b",
+      "b": "S4a.t1:a",
+      "kind": "border"
+    },
+    {
+      "id": "B-left.4",
+      "a": "S4a.t1:a",
+      "b": "B-bottom:a",
+      "kind": "border"
+    },
+    {
+      "id": "S1a.t1.1",
+      "a": "S1a.t1:a",
+      "b": "S4a.t1:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S1a.t1.2",
+      "a": "S4a.t1:b",
+      "b": "S5a.t1:a",
+      "kind": "valley"
+    },
+    {
+      "id": "S1a.t1.3",
+      "a": "S5a.t1:a",
+      "b": "S1a.t1:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S2a.t1.1",
+      "a": "S1a.t1:b",
+      "b": "S7a.t4:a",
+      "kind": "valley"
+    },
+    {
+      "id": "S2a.t1.2",
+      "a": "S7a.t4:a",
+      "b": "S5a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S2a.t1.3",
+      "a": "S5a.t1:b",
+      "b": "S2a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S3a.t1.1",
+      "a": "S1a.t1:b",
+      "b": "S8a.t2:a",
+      "kind": "valley"
+    },
+    {
+      "id": "S3a.t1.2",
+      "a": "S8a.t2:a",
+      "b": "S5a.t3:a",
+      "kind": "valley"
+    },
+    {
+      "id": "S3a.t1.3",
+      "a": "S5a.t3:a",
+      "b": "S3a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S4a.t1.1",
+      "a": "S4a.t1:a",
+      "b": "S8a.t1:a",
+      "kind": "valley"
+    },
+    {
+      "id": "S4a.t1.2",
+      "a": "S8a.t1:a",
+      "b": "S4a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S4a.t2.1",
+      "a": "S4a.t1:b",
+      "b": "S7a.t1:a",
+      "kind": "valley"
+    },
+    {
+      "id": "S4a.t2.2",
+      "a": "S7a.t1:a",
+      "b": "S4a.t2:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S5a.t1.1",
+      "a": "S5a.t1:a",
+      "b": "S7a.t2:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S5a.t1.2",
+      "a": "S7a.t2:b",
+      "b": "S5a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S5a.t2.1",
+      "a": "S5a.t2:a",
+      "b": "S7a.t3:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S5a.t2.2",
+      "a": "S7a.t3:b",
+      "b": "S5a.t1:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S5a.t3.1",
+      "a": "S5a.t3:a",
+      "b": "S8a.t2:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S5a.t3.2",
+      "a": "S8a.t2:b",
+      "b": "S5a.t3:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S5a.t4.1",
+      "a": "S5a.t3:a",
+      "b": "S8a.t4:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S5a.t4.2",
+      "a": "S8a.t4:b",
+      "b": "S5a.t1:a",
+      "kind": "valley"
+    },
+    {
+      "id": "S7a.t1",
+      "a": "S7a.t1:a",
+      "b": "S7a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S7a.t2",
+      "a": "S7a.t1:a",
+      "b": "S7a.t2:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S7a.t3",
+      "a": "S7a.t3:a",
+      "b": "S7a.t3:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S7a.t4",
+      "a": "S7a.t4:a",
+      "b": "S7a.t3:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S7a.t5",
+      "a": "S7a.t4:a",
+      "b": "S7a.t2:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S8a.t1",
+      "a": "S8a.t1:a",
+      "b": "S8a.t1:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S8a.t2",
+      "a": "S8a.t2:a",
+      "b": "S8a.t2:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S8a.t3",
+      "a": "S8a.t3:a",
+      "b": "S8a.t2:b",
+      "kind": "valley"
+    },
+    {
+      "id": "S8a.t4",
+      "a": "S8a.t1:a",
+      "b": "S8a.t4:b",
+      "kind": "mountain"
+    },
+    {
+      "id": "S8a.t5",
+      "a": "S8a.t2:a",
+      "b": "S8a.t4:b",
+      "kind": "valley"
+    }
+  ],
+  "steps": [
+    {
+      "id": "s1",
+      "title": "Mittelfalte vorfalten",
+      "text": "Blatt längs in der Mitte falten und wieder öffnen.",
+      "sequential": true,
+      "folds": [
+        {
+          "creaseIds": [
+            "S1a.t1.1",
+            "S1a.t1.2",
+            "S1a.t1.3"
+          ],
+          "movingPoint": [
+            20,
+            20
+          ],
+          "angle": 180
+        },
+        {
+          "creaseIds": [
+            "S1a.t1.1",
+            "S1a.t1.2",
+            "S1a.t1.3"
+          ],
+          "movingPoint": [
+            20,
+            20
+          ],
+          "angle": -180
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Rechte Ecke zur Mitte",
+      "text": "Rechte obere Ecke an die Mittelfalte legen.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S2a.t1.1",
+            "S2a.t1.2",
+            "S2a.t1.3"
+          ],
+          "movingPoint": [
+            205,
+            290
+          ],
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Linke Ecke zur Mitte",
+      "text": "Linke obere Ecke ebenso an die Mitte legen.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S3a.t1.1",
+            "S3a.t1.2",
+            "S3a.t1.3"
+          ],
+          "movingPoint": [
+            5,
+            290
+          ],
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Spitze nach unten",
+      "text": "Die Spitze an der Unterkante der Klappen nach unten falten.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S4a.t1.1",
+            "S4a.t1.2",
+            "S4a.t2.1",
+            "S4a.t2.2"
+          ],
+          "movingPoint": [
+            80,
+            250
+          ],
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Spitze wieder hoch",
+      "text": "Die Spitze nach oben falten, sodass sie über den stumpfen Kopf hinausragt.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S5a.t1.1",
+            "S5a.t1.2",
+            "S5a.t2.1",
+            "S5a.t2.2",
+            "S5a.t3.1",
+            "S5a.t3.2",
+            "S5a.t4.1",
+            "S5a.t4.2"
+          ],
+          "movingPoint": [
+            90,
+            260
+          ],
+          "angle": 180
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Entlang der Mitte falten",
+      "text": "Den Flieger entlang der Mittelfalte nach hinten zusammenklappen.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S1a.t1.1",
+            "S1a.t1.2",
+            "S1a.t1.3"
+          ],
+          "movingPoint": [
+            20,
+            20
+          ],
+          "angle": -180
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Rechter Flügel",
+      "text": "Den oberen Flügel entlang der Linie nach vorn klappen, bis er waagerecht steht.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S7a.t1",
+            "S7a.t2",
+            "S7a.t3",
+            "S7a.t4",
+            "S7a.t5"
+          ],
+          "movingPoint": [
+            200,
+            20
+          ],
+          "angle": 90
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Linker Flügel",
+      "text": "Den unteren Flügel ebenso klappen. Fertig – breite Flügel, schwerer Kopf.",
+      "folds": [
+        {
+          "creaseIds": [
+            "S8a.t1",
+            "S8a.t2",
+            "S8a.t3",
+            "S8a.t4",
+            "S8a.t5"
+          ],
+          "movingPoint": [
+            10,
+            20
+          ],
+          "angle": 90
+        }
+      ]
+    }
+  ]
+}
